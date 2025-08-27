@@ -1,5 +1,5 @@
-# Codename Refactored: A Stealth-Action Vertical Slice in UE5
+# Codename Factory: расширяемая квестовая система
 
-Developed with Unreal Engine 5.6 
+## Разработано с помощью UE5.6
 
 Hi! :)
