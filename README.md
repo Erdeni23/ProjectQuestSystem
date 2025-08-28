@@ -121,7 +121,8 @@
 ### 2.5 Выполнение квеста - AC_QuestGiverAndProcedeer
 За обновление прогресса задачи, квеста и стадии отвечает сам **UObject квеста** , он получает информацию (**TargetID** и **Amount**) от **AC_PlayerQuestManager**, который в свою очередь получает информацию от  **AC_QuestGiverAndProcedeer** - этот компонент находится у акторов, которые участвуют в продвижении квеста.
 
-* **AC_QuestGiverAndProcedeer** - Имеет 3 переменные: QuestID - DataTableRowHandle для выбора таблицы и имени квеста, ThisObjectiveID - FString для хранения переменной задачи, ThisObjectiveIDQuantity - количество. Компонент выдаёт квесты и продвигает прогресс по задачам, имеет функции: 
+* **AC_QuestGiverAndProcedeer** - Имеет 3 переменные: QuestID - DataTableRowHandle для выбора таблицы и имени квеста, ThisObjectiveID - FString для хранения переменной задачи, ThisObjectiveIDQuantity - количество. Компонент выдаёт квесты и продвигает прогресс по задачам, имеет функции:
+
 	  1.  **GiveQuest** - выдаёт квест по референсу. Получение референса задаёт сам актор который заинтересован в выдаче квеста, в проекте есть готовые триггер **BP_QuestTrigger** - это  BoxCollision который при пересечении с игроком выдаёт ему квест.
 	  2.  **ProgressObjective** - выполнить  обновление прогресса, используя данные ThisObjectiveID, ThisObjectiveIDQuantity. Вместо этой функции рекомендуется использовать макрос **UpdateObjectiveProgressMacro** 
   
