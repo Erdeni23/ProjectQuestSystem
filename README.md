@@ -88,4 +88,5 @@
 
 ### Отслеживание квеста - HUD игрока - WidgetBlueprint
 
-![фs12](https://github.com/user-attachments/assets/38d22e13-956a-490c-b64a-70d56156a154)
+![HUD-1](https://github.com/user-attachments/assets/9a25a16b-5ed4-4643-9616-69bd278eebad)
+
