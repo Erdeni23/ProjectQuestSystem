@@ -125,4 +125,4 @@ To Do ...
 
 
 
-![Ссылка на скачивание билда](https://disk.yandex.ru/d/FC6i2av2cSnQrw)
+[Ссылка на скачивание билда](https://disk.yandex.ru/d/FC6i2av2cSnQrw)
