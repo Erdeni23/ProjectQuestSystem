@@ -175,6 +175,8 @@
 
 <img width="983" height="498" alt="Pasted image 20250830204424" src="https://github.com/user-attachments/assets/c3d5f2c6-b076-4b3c-beb0-b048da665c6e" />
 
+
+
 1. Расположите триггер-бокс в желаемом месте;
 2. Нажмите на триггер бокс(для удобства работы существует белый меш, его не видно в игре), выберите AC_QuestGiverAndProceeder;
 3. Найдите параметр Quest Giver, настройте по желанию RowName -  место куда нужно вставлять QuestID из DT_Quests (название ряда в таблице).
@@ -185,6 +187,7 @@
 
 
 <img width="2322" height="588" alt="Pasted image 20250830210257" src="https://github.com/user-attachments/assets/b7574ec0-cea7-4f80-b836-3a07ee8a5f7b" />
+
 
 
 1. Добавьте компонент **AC_QuestGiverAndProceeder** к актору который будет выдавать квест;
