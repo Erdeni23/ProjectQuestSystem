@@ -251,6 +251,13 @@
 
 <img width="1165" height="335" alt="image" src="https://github.com/user-attachments/assets/aae1ee8a-a5a2-4387-abd4-e545f6deacaf" />
 
+* Подключите интерфейс BPI_QuestInterface
+
+* Подключите ноды как на скриншоте. Примечание: не забудьте поставить на J и ESC - галочку на Execute When Paused
+
+<img width="1546" height="707" alt="image" src="https://github.com/user-attachments/assets/90a67862-d34a-4520-8968-7850f58f3f96" />
+
+
 
 ### ❗❗❗ 6. Лицензия и Использование
 
