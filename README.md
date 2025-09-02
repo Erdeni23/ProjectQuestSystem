@@ -231,7 +231,7 @@
 
 * Мигрируйте проект в нужный проект
 
-
+<img width="413" height="660" alt="image" src="https://github.com/user-attachments/assets/e665608e-84f1-44bb-bfaf-aad143e49812" />
 
 ### 5.2 Настройка системы
 
@@ -243,13 +243,14 @@
 
 * Откройте компонент AC_PlayerQuestManager, найдите функцию AfterQuestCompletionCleanUP - подключите ноду DestroyUObject
 
-<img width="413" height="660" alt="image" src="https://github.com/user-attachments/assets/e665608e-84f1-44bb-bfaf-aad143e49812" />
+<img width="1165" height="335" alt="image" src="https://github.com/user-attachments/assets/aae1ee8a-a5a2-4387-abd4-e545f6deacaf" />
 
-* Измените S_Reward в папке QuestSystem/Data: установите свой PrimaryDataAsset для корректной работы в дата ассете должен быть указатель на Texture2D, мягкий или обычный, на ваше усмотрение
+* Измените струкутуру S_Reward в папке QuestSystem/Data: установите свой PrimaryDataAsset для корректной работы в дата ассете должен быть указатель на Texture2D, мягкий или обычный, на ваше усмотрение
 
 * Измените WBP_RewardWidget - Создайте переменную типа S_Reward и подключите согласно скриншоту. Если у вас мягкий указатель, используйте ассинхронную загрузку
 
-<img width="1165" height="335" alt="image" src="https://github.com/user-attachments/assets/aae1ee8a-a5a2-4387-abd4-e545f6deacaf" />
+<img width="1357" height="570" alt="Pasted image 20250902061932" src="https://github.com/user-attachments/assets/f98342b0-9a51-4dbd-b1d6-acb4b0108af1" />
+
 
 * Подключите интерфейс BPI_QuestInterface
 
